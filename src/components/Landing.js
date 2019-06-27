@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Landing = () => {
   return (
-    <div className="landing">
+    <div className="fullcenter">
       <h1 className="heavy">Daniel Rowe</h1>
       <h3 className="light">front end developer</h3>
       <div>
