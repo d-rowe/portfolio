@@ -1,55 +1,27 @@
 import React from "react";
+import ProjectCard from "./ProjectCard";
 import "./style.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Portfolio = () => {
   return (
-    <div className="fullcenter">
+    <div className="portfolio">
       <h1 className="heavy">Portfolio</h1>
-      <h3 className="light">front end developer</h3>
       <div className="container">
         <div className="card-deck portfolio-cards">
-          <div className="card">
-            <img className="card-img-top" src="..." alt="Card image cap" />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <img className="card-img-top" src="..." alt="Card image cap" />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <img className="card-img-top" src="..." alt="Card image cap" />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
-              </p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
+          <ProjectCard
+            title="Artist Map"
+            image="https://i.imgur.com/pd6OsBH.jpg"
+            description="Explore band gigographies. Created with React, Redux, Node.js, Express, Bootstrap, and Mapbox Gl. Utilizes the Songkick API."
+            demo="https://artistmap.herokuapp.com"
+            github="https://github.com/d-rowe/ArtistMap"
+          />
+          <ProjectCard
+            title="Polyrhythmic Metronome"
+            image="https://i.imgur.com/JBGGaA0.jpg"
+            description="Explore the juxtopositian of two time subdivisions at once. Created with React, Two.js, GSAP, and Bulma."
+            demo="http://polyrhythm.netlify.com"
+          />
         </div>
       </div>
     </div>

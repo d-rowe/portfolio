@@ -9,6 +9,10 @@
   flex-direction: column;
 }
 
+.portfolio {
+  margin-top: 3em;
+}
+
 .light {
   font-weight: 300;
 }
