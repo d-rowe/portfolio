@@ -1,5 +1,5 @@
 .fullcenter {
-  margin-top: -10em;
+  /* margin-top: -10em; */
   flex: 1 1 auto;
   display: flex;
   overflow: auto;
@@ -21,8 +21,8 @@
 }
 
 .socLink {
-  font-size: 4em;
-  color: gray;
+  font-size: 3em;
+  color: rgb(92, 92, 92);
   margin-top: 0.125em;
   margin-left: 0.25em;
   margin-right: 0.25em;
@@ -34,4 +34,14 @@
 
 .portfolio-cards {
   margin-top: 2em;
+}
+
+.technologies {
+  margin-top: 1.5em;
+  font-size: 1.75em;
+  color: rgb(155, 155, 155);
+}
+
+.iconify {
+  margin: 0.1em;
 }
