@@ -11,6 +11,18 @@ const Navbar = props => {
     }
   };
 
+  const navLink = name => {
+    const lowerName = name.toLowerCase();
+    const path = lowerName === "home" ? "" : lowerName
+    return (
+      <li className={getPageClass(path)}>
+        <Link to={"/" + path} className="nav-link">
+          {name}
+        </Link>
+      </li>
+    );
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light shadow-sm navbar-fixed-top">
       <Link className="navbar-brand" to="/">
@@ -29,21 +41,9 @@ const Navbar = props => {
       </button>
       <div className="collapse navbar-collapse " id="navbarNavDropdown">
         <ul className="navbar-nav">
-          <li className={getPageClass("")}>
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li className={getPageClass("portfolio")}>
-            <Link to="/portfolio" className="nav-link">
-              Portfolio
-            </Link>
-          </li>
-          <li className={getPageClass("contact")}>
-            <Link to="/contact" className="nav-link">
-              Contact
-            </Link>
-          </li>
+          {navLink("Home")}
+          {navLink("Portfolio")}
+          {navLink("Contact")}
         </ul>
       </div>
     </nav>
