@@ -3,9 +3,9 @@ import "./style.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Landing = () => {
-  const techIcon = icon => {
-    return <span className="iconify" data-icon={icon} data-inline="false" />;
-  };
+  // const techIcon = icon => {
+  //   return <span className="iconify" data-icon={icon} data-inline="false" />;
+  // };
 
   return (
     <div className="fullcenter">
@@ -19,7 +19,7 @@ const Landing = () => {
           <span className="fab fa-linkedin socLink" />
         </a>
       </div>
-      <div className="technologies">
+      {/* <div className="technologies">
         {techIcon("fa-brands:react")}
         {techIcon("simple-icons:redux")}
         {techIcon("fa-brands:node-js")}
@@ -28,7 +28,7 @@ const Landing = () => {
         {techIcon("typcn:html5")}
         {techIcon("el:css")}
         {techIcon("fa-brands:sass")}
-      </div>
+      </div> */}
     </div>
   );
 };

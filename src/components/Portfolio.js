@@ -5,7 +5,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
+    <div className="page">
       <h1 className="heavy">Portfolio</h1>
       <div className="container">
         <div className="card-deck portfolio-cards">

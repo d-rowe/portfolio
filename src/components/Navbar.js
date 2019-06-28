@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import "./style.css";
 
 const Navbar = props => {
   const getPageClass = pageName => {
@@ -11,7 +12,7 @@ const Navbar = props => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-light shadow-sm navbar-fixed-top">
       <a className="navbar-brand" href="/">
         Daniel Rowe
       </a>

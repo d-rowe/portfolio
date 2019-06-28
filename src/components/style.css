@@ -1,5 +1,5 @@
 .fullcenter {
-  /* margin-top: -10em; */
+  margin-top: -10em;
   flex: 1 1 auto;
   display: flex;
   overflow: auto;
@@ -9,7 +9,7 @@
   flex-direction: column;
 }
 
-.portfolio {
+.page {
   margin-top: 3em;
 }
 
