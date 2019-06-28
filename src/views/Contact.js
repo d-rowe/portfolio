@@ -4,7 +4,7 @@ import "./style.css";
 const Contact = () => {
   return (
     <div className="fullcenter">
-      <h1>Contact</h1>
+      <h1 className="heavy">Contact</h1>
       <form
         action="https://formspree.io/danielrowemusic@gmail.com"
         method="POST"

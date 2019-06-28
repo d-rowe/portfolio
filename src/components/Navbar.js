@@ -13,9 +13,9 @@ const Navbar = props => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light shadow-sm navbar-fixed-top">
-      <a className="navbar-brand" href="/">
+      <Link className="navbar-brand" to="/">
         Daniel Rowe
-      </a>
+      </Link>
       <button
         className="navbar-toggler collapsed"
         type="button"
@@ -37,11 +37,6 @@ const Navbar = props => {
           <li className={getPageClass("portfolio")}>
             <Link to="/portfolio" className="nav-link">
               Portfolio
-            </Link>
-          </li>
-          <li className={getPageClass("interests")}>
-            <Link to="/interests" className="nav-link">
-              Interests
             </Link>
           </li>
           <li className={getPageClass("contact")}>
