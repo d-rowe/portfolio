@@ -1,7 +1,9 @@
 import React from "react";
+import { Store } from "../store/Store";
 import ProjectCard from "../components/ProjectCard";
 import "./style.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+const portfolioData = Store.portfolio;
 
 const Portfolio = () => {
   return (
@@ -9,20 +11,21 @@ const Portfolio = () => {
       <h1 className="heavy">Portfolio</h1>
       <div className="container">
         <div className="card-deck portfolio-cards">
-          <ProjectCard
-            title="Artist Map"
-            image="https://i.imgur.com/pd6OsBH.jpg"
-            description="Explore band gigographies. Created with React, Redux, Node.js, Express, Bootstrap, and Mapbox Gl. Utilizes the Songkick API."
-            demo="https://artistmap.herokuapp.com"
-            github="https://github.com/d-rowe/ArtistMap"
-          />
-          <ProjectCard
-            title="Polyrhythmic Metronome"
-            image="https://i.imgur.com/JBGGaA0.jpg"
-            description="Learn polyrhythms with this polyphonic metronome. Geometric visualization created with two.js and GSAPa. Created with React, Redux, Two.js, GSAP, and Bulma."
-            demo="http://polyrhythm.netlify.com"
-            github="https://github.com/d-rowe/polyrhythm-metronome"
-          />
+          {portfolioData ? (
+            portfolioData.map(project => (
+              <ProjectCard
+                title={project.title}
+                image={project.image}
+                description={project.description}
+                demo={project.demo}
+                github={project.github}
+              />
+            ))
+          ) : (
+            <h3 className="light">
+              There doesn't appear to be anything here...
+            </h3>
+          )}
         </div>
       </div>
     </div>
