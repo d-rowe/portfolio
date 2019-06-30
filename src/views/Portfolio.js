@@ -19,8 +19,9 @@ const Portfolio = () => {
           <ProjectCard
             title="Polyrhythmic Metronome"
             image="https://i.imgur.com/JBGGaA0.jpg"
-            description="Explore the juxtopositian of two time subdivisions at once. Created with React, Two.js, GSAP, and Bulma."
+            description="Learn polyrhythms with this polyphonic metronome. Geometric visualization created with two.js and GSAPa. Created with React, Redux, Two.js, GSAP, and Bulma."
             demo="http://polyrhythm.netlify.com"
+            github="https://github.com/d-rowe/polyrhythm-metronome"
           />
         </div>
       </div>
