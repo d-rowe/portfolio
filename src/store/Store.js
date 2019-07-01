@@ -25,11 +25,26 @@ export const Store = {
     },
     {
       title: "Polyrhythmic Metronome",
-      image: "https://i.imgur.com/JBGGaA0.jpg",
+      image: "https://media.giphy.com/media/fUqqpOXqsR4abYw9Ay/giphy.gif",
       description:
-        "Learn polyrhythms with this polyphonic metronome. Geometric visualization created with two.js and GSAPa. Created with React, Redux, Two.js, GSAP, and Bulma.",
+        "Learn polyrhythms with this polyphonic metronome. Created with React, Redux, Two.js, GSAP, and Bulma.",
       demo: "http://polyrhythm.netlify.com",
       github: "https://github.com/d-rowe/polyrhythm-metronome"
+    },
+    {
+      title: "MusEddy",
+      image: "https://media.giphy.com/media/SRkcoAvG2b7aTrygVz/giphy.gif",
+      description:
+        "Educational music theory platform, including an interactive four-part music notation editor with playback and theoretical music analysis. Created with React.js, Vexflow, Tone.js, and Bulma.",
+      demo: "https://museddy.com/"
+    },
+    {
+      title: "Harmonic Visualizer",
+      image: "https://media.giphy.com/media/VHYgq8FDJ8lhC4fhtz/giphy.gif",
+      description:
+        "Visualization of harmonic waves. Created with React and Tone.js.",
+      demo: "https://harmonic.netlify.com/",
+      github: "https://github.com/d-rowe/harmonic-visualizer"
     }
   ]
 };
