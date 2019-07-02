@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const ProjectCard = ({ title, description, image, demo, github }) => {
   const githubLink = github ? (
@@ -7,7 +8,14 @@ const ProjectCard = ({ title, description, image, demo, github }) => {
     </a>
   ) : null;
   return (
-    <div className="card shadow">
+    <div
+      className="card shadow"
+      style={{
+        maxWidth: 20 + "rem",
+        minWidth: 15 + "rem",
+        marginBottom: "2em"
+      }}
+    >
       <img className="card-img-top shadow-sm" src={image} alt="Card cap" />
       <div className="card-body">
         <h5 className="card-title">{title}</h5>

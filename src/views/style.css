@@ -41,3 +41,12 @@
 .iconify {
   margin: 0.1em;
 }
+
+.contact-card {
+  width: 25em;
+  padding: 1em;
+}
+
+.name, .email, .message {
+  margin-bottom: 1em;
+}
