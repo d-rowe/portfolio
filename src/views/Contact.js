@@ -28,7 +28,11 @@ const Contact = () => {
             name="message"
             placeholder="Your message here..."
           />
-          <input type="submit" value="Send Message" className="btn btn-dark m-2" />
+          <input
+            type="submit"
+            value="Send Message"
+            className="btn btn-dark m-2"
+          />
         </form>
       </div>
     </div>
