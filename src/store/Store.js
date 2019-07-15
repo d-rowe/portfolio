@@ -16,7 +16,7 @@ export const Store = {
 
   portfolio: [
     {
-      title: "Arist Map",
+      title: "Artist Map",
       image: "https://i.imgur.com/pd6OsBH.jpg",
       description:
         "Explore band gigographies. Created with React, Redux, Node.js, Express, Bootstrap, and Mapbox Gl. Utilizes the Songkick API.",
