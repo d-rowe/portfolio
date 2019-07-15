@@ -1,7 +1,7 @@
-import React from "react";
-import "./style.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import { Store } from "../store/Store";
+import React from 'react';
+import './style.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Store } from '../store/Store';
 const homeData = Store.home;
 
 const Home = () => {
@@ -10,13 +10,13 @@ const Home = () => {
   // };
 
   return (
-    <div className="fullcenter">
-      <h1 className="heavy">{homeData.title}</h1>
-      <h3 className="light">{homeData.subtitle}</h3>
+    <div className='fullcenter'>
+      <h1 className='heavy'>{homeData.title}</h1>
+      <h3 className='light'>{homeData.subtitle}</h3>
       <div>
         {homeData.icons
           ? homeData.icons.map(icon => (
-              <a href={icon.link}>
+              <a href={icon.link} key={icon.key}>
                 <span className={`fab ${icon.class} socLink`} />
               </a>
             ))
