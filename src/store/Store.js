@@ -6,12 +6,10 @@ export const Store = {
       {
         link: 'https://github.com/d-rowe',
         class: 'fa-github-square',
-        key: 0
       },
       {
         link: 'https://www.linkedin.com/in/daniel-rowe-b109a6180/',
         class: 'fa-linkedin',
-        key: 1
       }
     ]
   },

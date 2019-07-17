@@ -15,8 +15,8 @@ const Home = () => {
       <h3 className='light'>{homeData.subtitle}</h3>
       <div>
         {homeData.icons
-          ? homeData.icons.map(icon => (
-              <a href={icon.link} key={icon.key}>
+          ? homeData.icons.map((icon, index) => (
+              <a href={icon.link} key={index}>
                 <span className={`fab ${icon.class} socLink`} />
               </a>
             ))
