@@ -7,20 +7,20 @@
   align-content: center;
   align-items: center;
   flex-direction: column;
-  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 0.5s; /* Firefox < 16 */
-  -ms-animation: fadein 0.5s; /* Internet Explorer */
-  -o-animation: fadein 0.5s; /* Opera < 12.1 */
-  animation: fadein 0.5s;
+  -webkit-animation: fadein 0.75s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.75s; /* Firefox < 16 */
+  -ms-animation: fadein 0.75s; /* Internet Explorer */
+  -o-animation: fadein 0.75s; /* Opera < 12.1 */
+  animation: fadein 0.75s;
 }
 
 .page {
   margin-top: 3em;
-  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 0.5s; /* Firefox < 16 */
-  -ms-animation: fadein 0.5s; /* Internet Explorer */
-  -o-animation: fadein 0.5s; /* Opera < 12.1 */
-  animation: fadein 0.5s;
+  -webkit-animation: fadein 0.75s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.75s; /* Firefox < 16 */
+  -ms-animation: fadein 0.75s; /* Internet Explorer */
+  -o-animation: fadein 0.75s; /* Opera < 12.1 */
+  animation: fadein 0.75s;
 }
 
 .light {
@@ -40,10 +40,6 @@
 
 .socLink:hover {
   color: black;
-}
-
-.iconify {
-  margin: 0.1em;
 }
 
 .contact-card {
