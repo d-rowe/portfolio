@@ -5,10 +5,6 @@ import { Store } from '../store/Store';
 const homeData = Store.home;
 
 const Home = () => {
-  // const techIcon = icon => {
-  //   return <span className="iconify" data-icon={icon} data-inline="false" />;
-  // };
-
   return (
     <div className='fullcenter'>
       <h1 className='heavy'>{homeData.title}</h1>
@@ -22,16 +18,6 @@ const Home = () => {
             ))
           : null}
       </div>
-      {/* <div className="technologies">
-        {techIcon("fa-brands:react")}
-        {techIcon("simple-icons:redux")}
-        {techIcon("fa-brands:node-js")}
-        {techIcon("fa-brands:git-square")}
-        {techIcon("fa-brands:bootstrap")}
-        {techIcon("typcn:html5")}
-        {techIcon("el:css")}
-        {techIcon("fa-brands:sass")}
-      </div> */}
     </div>
   );
 };
