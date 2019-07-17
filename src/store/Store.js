@@ -1,7 +1,7 @@
 export const Store = {
   home: {
     title: 'Daniel Rowe',
-    subtitle: 'front end developer',
+    subtitle: 'software developer',
     icons: [
       {
         link: 'https://github.com/d-rowe',
