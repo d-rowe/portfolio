@@ -5,11 +5,11 @@ export const Store = {
     icons: [
       {
         link: 'https://github.com/d-rowe',
-        class: 'fa-github-square',
+        class: 'fa-github-square'
       },
       {
         link: 'https://www.linkedin.com/in/daniel-rowe-b109a6180/',
-        class: 'fa-linkedin',
+        class: 'fa-linkedin'
       }
     ]
   },
@@ -46,5 +46,10 @@ export const Store = {
       demo: 'https://harmonic.netlify.com/',
       github: 'https://github.com/d-rowe/harmonic-visualizer'
     }
-  ]
+  ],
+
+  about: {
+    title: 'About',
+    paragraphs: ['First paragraph.', 'Second paragraph.']
+  }
 };

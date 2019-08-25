@@ -50,6 +50,7 @@ const Navbar = props => {
         <ul className='navbar-nav'>
           {navLink('Home')}
           {navLink('Portfolio')}
+          {navLink('About')}
           {navLink('Contact')}
         </ul>
       </div>
